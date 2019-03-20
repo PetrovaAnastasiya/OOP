@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="test_data">
+      <UniqueIdentifier>{834a7a46-0352-4bd8-9649-ef1419250741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Source Files\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Header Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="findtext.cpp">
+      <Filter>Header Files\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="weather.txt">
+      <Filter>test_data</Filter>
+    </Text>
+    <Text Include="empty.txt">
+      <Filter>test_data</Filter>
+    </Text>
+    <Text Include="weather-out.txt">
+      <Filter>test_data</Filter>
+    </Text>
+    <Text Include="error-elem-num.txt">
+      <Filter>test_data</Filter>
+    </Text>
+    <Text Include="out.txt">
+      <Filter>test_data</Filter>
+    </Text>
+    <Text Include="empty-out.txt">
+      <Filter>test_data</Filter>
+    </Text>
+    <Text Include="err-file-open.txt">
+      <Filter>test_data</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Test.bat">
+      <Filter>test_data</Filter>
+    </None>
+  </ItemGroup>
+</Project>
