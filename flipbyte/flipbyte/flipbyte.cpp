@@ -49,13 +49,13 @@ int main(int argc, char* argv[])
 
 	double outByte = 0;
 	int j = NUM_BIT - 1;
-	for (int i = 0; i < NUM_BIT - 1; i++)
+	for (int i = 0; i < NUM_BIT; i++)
 	{
 		if (bitStrOut[i] == '1')
 			outByte += pow(2, j);
 		j--;	
 	}
-	
+
 	cout << outByte << endl;
 
 	return 0;

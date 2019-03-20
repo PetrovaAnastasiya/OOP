@@ -97,7 +97,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PostBuildEvent>
-      <Command>Test.bat "($TargetPath)"</Command>
+      <Command>Test.bat "$(TargetPath)"</Command>
     </PostBuildEvent>
     <PostBuildEvent>
       <Message>Running tests</Message>
@@ -118,7 +118,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PostBuildEvent>
-      <Command>Test.bat "($TargetPath)"</Command>
+      <Command>Test.bat "$(TargetPath)"</Command>
     </PostBuildEvent>
     <PostBuildEvent>
       <Message>Running tests</Message>
@@ -143,7 +143,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PostBuildEvent>
-      <Command>Test.bat "($TargetPath)"</Command>
+      <Command>Test.bat "$(TargetPath)"</Command>
     </PostBuildEvent>
     <PostBuildEvent>
       <Message>Running tests</Message>
@@ -168,7 +168,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PostBuildEvent>
-      <Command>Test.bat "($TargetPath)"</Command>
+      <Command>Test.bat "$(TargetPath)"</Command>
     </PostBuildEvent>
     <PostBuildEvent>
       <Message>Running tests</Message>
@@ -188,6 +188,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Test.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="error-elem-num.txt" />
+    <Text Include="output_0.txt" />
+    <Text Include="output_255.txt" />
+    <Text Include="output_6.txt" />
+    <Text Include="parameter_error.txt" />
+    <Text Include="range-error.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

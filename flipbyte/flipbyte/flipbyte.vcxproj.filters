@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{a4af34bd-ef4a-425d-80b6-2cf9b5ca37eb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -31,5 +34,25 @@
     <None Include="Test.bat">
       <Filter>Исходные файлы</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="range-error.txt">
+      <Filter>test</Filter>
+    </Text>
+    <Text Include="output_0.txt">
+      <Filter>test</Filter>
+    </Text>
+    <Text Include="output_255.txt">
+      <Filter>test</Filter>
+    </Text>
+    <Text Include="output_6.txt">
+      <Filter>test</Filter>
+    </Text>
+    <Text Include="parameter_error.txt">
+      <Filter>test</Filter>
+    </Text>
+    <Text Include="error-elem-num.txt">
+      <Filter>test</Filter>
+    </Text>
   </ItemGroup>
 </Project>
