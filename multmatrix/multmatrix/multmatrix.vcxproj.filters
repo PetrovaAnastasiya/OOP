@@ -32,4 +32,33 @@
       <Filter>Исходные файлы</Filter>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="error-elem-num.txt">
+      <Filter>Исходные файлы</Filter>
+    </Text>
+    <Text Include="error-file-open.txt">
+      <Filter>Исходные файлы</Filter>
+    </Text>
+    <Text Include="error-two-file-open.txt">
+      <Filter>Исходные файлы</Filter>
+    </Text>
+    <Text Include="result1.txt">
+      <Filter>Исходные файлы</Filter>
+    </Text>
+    <Text Include="result2.txt">
+      <Filter>Исходные файлы</Filter>
+    </Text>
+    <Text Include="matrix1.txt">
+      <Filter>Исходные файлы</Filter>
+    </Text>
+    <Text Include="matrix2.txt">
+      <Filter>Исходные файлы</Filter>
+    </Text>
+    <Text Include="matrixIdentity.txt">
+      <Filter>Исходные файлы</Filter>
+    </Text>
+    <Text Include="result3.txt">
+      <Filter>Исходные файлы</Filter>
+    </Text>
+  </ItemGroup>
 </Project>

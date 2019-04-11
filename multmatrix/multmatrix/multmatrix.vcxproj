@@ -189,6 +189,17 @@
   <ItemGroup>
     <None Include="Test.bat" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="error-elem-num.txt" />
+    <Text Include="error-file-open.txt" />
+    <Text Include="error-two-file-open.txt" />
+    <Text Include="matrix1.txt" />
+    <Text Include="matrixIdentity.txt" />
+    <Text Include="result1.txt" />
+    <Text Include="result2.txt" />
+    <Text Include="matrix2.txt" />
+    <Text Include="result3.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
