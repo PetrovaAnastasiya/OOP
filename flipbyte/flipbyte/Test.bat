@@ -6,6 +6,10 @@ set OUTFILE="out.txt"
 %PROGRAM% > %OUTFILE%  
 fc %OUTFILE% error-elem-num.txt || goto err
 
+:: Проверка на ввод большего кол-ва аргументов 
+%PROGRAM% "-1" "-1"> %OUTFILE%  
+fc %OUTFILE% error-elem-num.txt || goto err
+
 :: Проверка на  число, которое не входит в [0;255] (<0)
 %PROGRAM% "-1" > %OUTFILE%  
 fc %OUTFILE% range-error.txt || goto err
@@ -25,11 +29,7 @@ fc %OUTFILE% output_0.txt || goto err
 :: Проверка на 255
 %PROGRAM% "255" > %OUTFILE%  
 fc %OUTFILE% output_255.txt || goto err
-
-:: ввод не верного параметра 
-%PROGRAM% "kgjlkdg" > %OUTFILE%  
-fc %OUTFILE% parameter_error.txt || goto err
-
+	
 :: ввод не верного параметра 
 %PROGRAM% "kgjlkdg" > %OUTFILE%  
 fc %OUTFILE% parameter_error.txt || goto err
